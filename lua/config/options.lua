@@ -1,15 +1,15 @@
-vim.opt.number = true
-vim.opt.cursorline = true
-vim.opt.relativenumber = true
-vim.opt.shiftwidth = 3
+local opt = vim.opt
 
+-- Line Management
+opt.number = true
+opt.cursorline = true
+opt.relativenumber = true
 
-
-
--- some text
-
-
-
-
+-- Indentation
+opt.expandtab = true
+opt.tabstop = 8
+opt.softtabstop = 8
+opt.shiftwidth = 8
+opt.smartindent = true
 
 
